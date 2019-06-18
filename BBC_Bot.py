@@ -11,7 +11,7 @@ newsSelectFirst = 'BBC' #parameter 4 : There may be multiple news sites in the s
 driverPath = 'geckodriver.exe' # ChromeDriver or geckoDriver Path
 customerPath ="C:\\Users\\Administrator\\Desktop\\Musteriler\\FurkanTurkan\\2What_com\\" # comparison folder
 
-# The folder structure is given in the description section of github
+
 
 oldumu = 0
 try:
