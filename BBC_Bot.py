@@ -3,6 +3,8 @@ import time
 import os
 import shutil
 
+# created by genjitsuCode FURKANTURKAN
+
 siteadi = 'XXX.com' #parameter 1 : WORDPRESS website name
 siteProtokol = 'https://'
 kullanici_adi = 'USERNAME'#parameter 2 : WORDPRESS ADMIN username
