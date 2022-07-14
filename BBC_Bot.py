@@ -5,13 +5,13 @@ import shutil
 
 # created by genjitsuCode FURKANTURKAN
 
-siteadi = 'XXX.com' #parameter 1 : WORDPRESS website name
+siteadi = 'diamondhousetr.com' #parameter 1 : WORDPRESS website name
 siteProtokol = 'https://'
-kullanici_adi = 'USERNAME'#parameter 2 : WORDPRESS ADMIN username
-password = 'PASSWORD'#parameter 3 : WP ADMIN password
+kullanici_adi = 'diamond'#parameter 2 : WORDPRESS ADMIN username
+password = 'diaMond44.'#parameter 3 : WP ADMIN password
 newsSelectFirst = 'BBC' #parameter 4 : There may be multiple news sites in the same folder. Specifies the path on code line 19
 driverPath = 'geckodriver.exe' # ChromeDriver or geckoDriver Path
-customerPath ="C:\\Users\\Administrator\\Desktop\\Musteriler\\FurkanTurkan\\2What_com\\" # comparison folder
+customerPath ="D:\\python\\Wordpress-selenium-post-bot-with-YOASTSEO\\CustomerPath\\2What_com\\" # comparison folder
 
 
 
@@ -19,7 +19,7 @@ oldumu = 0
 try:
 
     if newsSelectFirst:
-        newsSelectFirstPath = "C:/Users/Administrator/Desktop/Haberler/"+newsSelectFirst+"_News/" #folder with all news
+        newsSelectFirstPath = "D:/python/Wordpress-selenium-post-bot-with-YOASTSEO/CustomerPath/2What_com/"+newsSelectFirst+"_News/" #folder with all news
         files = os.listdir(newsSelectFirstPath) # news folders assigned to files variable
         i = 0
         while oldumu < 1:
