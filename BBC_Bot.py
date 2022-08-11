@@ -5,10 +5,10 @@ import shutil
 
 # created by genjitsuCode FURKANTURKAN
 
-siteadi = 'diamondhousetr.com' #parameter 1 : WORDPRESS website name
+siteadi = 'XXXX.com' #parameter 1 : WORDPRESS website name
 siteProtokol = 'https://'
-kullanici_adi = 'diamond'#parameter 2 : WORDPRESS ADMIN username
-password = 'diaMond44.'#parameter 3 : WP ADMIN password
+kullanici_adi = 'UserName'#parameter 2 : WORDPRESS ADMIN username
+password = 'password'#parameter 3 : WP ADMIN password
 newsSelectFirst = 'BBC' #parameter 4 : There may be multiple news sites in the same folder. Specifies the path on code line 19
 driverPath = 'geckodriver.exe' # ChromeDriver or geckoDriver Path
 customerPath ="D:\\python\\Wordpress-selenium-post-bot-with-YOASTSEO\\CustomerPath\\2What_com\\" # comparison folder
